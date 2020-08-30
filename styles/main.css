@@ -140,6 +140,7 @@
       grid-template-columns: repeat(2, 1fr);
   padding: 0 8px;
   gap: 8px;
+  margin-top: 16px;
 }
 
 .container .section-2 .images-container img {

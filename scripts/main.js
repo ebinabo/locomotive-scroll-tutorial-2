@@ -1,7 +1,6 @@
 const scroller = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
-    smooth: true,
-    // lerp: .5
+    smooth: true
 })
 
 gsap.registerPlugin(ScrollTrigger)
@@ -30,8 +29,8 @@ ScrollTrigger.scrollerProxy(
 ScrollTrigger.create({
     trigger: '.image-mask',
     scroller: '.container',
-    start: 'top+=20% 50%',
-    end: 'bottom-=50% 50%',
+    start: 'top+=30% 50%',
+    end: 'bottom-=40% 50%',
     animation: gsap.to('.image-mask', {backgroundSize: '120%'}),
     scrub: 2,
     // markers: true
